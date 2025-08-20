@@ -1,0 +1,25 @@
+# Build artifacts / dependencies
+dist
+build
+coverage
+node_modules
+.nyc_output
+.cache
+tmp
+.tmp
+
+# Generated code (linting is typically unnecessary)
+generated/**
+**/__generated__/**
+src/**/openapi/**
+swagger.json
+openapi.json
+prisma/generated/**
+prisma/migrations/**
+
+# Type declaration files
+**/*.d.ts
+
+# Assets and non-TS code
+public/**
+static/**

@@ -1,0 +1,40 @@
+# Build artifacts / dependencies
+dist
+build
+coverage
+node_modules
+.nyc_output
+.cache
+tmp
+.tmp
+
+# Logs and lockfiles
+*.log
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Env / VCS / IDE
+.env
+.env.*
+.git
+.DS_Store
+.idea
+.vscode/**
+
+# Generated code (avoid formatting auto-generated files)
+generated/**
+**/__generated__/**
+src/**/openapi/**
+swagger.json
+openapi.json
+prisma/migrations/**
+
+# Static/minified assets
+public/**
+static/**
+*.min.css
+*.min.js
+
+# External/managed content (often not worth reformatting)
+CHANGELOG.md
